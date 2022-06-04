@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+  <q-layout view="lHh Lpr lFf" >
+    <q-header elevated style="background-color:#0D1B2A ">
       <q-toolbar>
         <q-btn
           flat
@@ -12,10 +12,15 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          BuyG
         </q-toolbar-title>
+        <q-item cliackable >
+          <q-icon  class="text-primary " />
+          <router-link to = "/login" fornt-color = "#FFFFFF">เข้าสู่ระบบ</router-link>
+          </q-item>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>//</div>
+        <div>สมัครสมาชิก</div>
       </q-toolbar>
     </q-header>
 
@@ -30,6 +35,7 @@
         >
           Essential Links
         </q-item-label>
+
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -57,9 +63,9 @@ const linksList = [
   },
   {
     title: 'Github',
-    caption: 'github.com/quasarframework',
+    caption: '',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: ''
   },
   {
     title: 'Discord Chat Channel',
