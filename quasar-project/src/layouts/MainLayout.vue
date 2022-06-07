@@ -18,9 +18,12 @@
           <q-icon  class="text-primary " />
           <router-link to = "/login" fornt-color = "#FFFFFF">เข้าสู่ระบบ</router-link>
           </q-item>
+          <q-item cliackable >
+          <q-icon  class="text-primary " />
+          <router-link to = "/register" fornt-color = "#FFFFFF">สมัครบัญชี</router-link>
+          </q-item>
 
-        <div>//</div>
-        <div>สมัครสมาชิก</div>
+
       </q-toolbar>
     </q-header>
 
