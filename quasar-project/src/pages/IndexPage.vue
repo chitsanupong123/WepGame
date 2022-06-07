@@ -5,7 +5,7 @@
         position: absolute;
         width: 117px;
         height: 53px;
-        left: 125px;
+        left: 100px;
         top: 20px;
 
         font-family: 'IBM Plex Sans Thai';
@@ -31,7 +31,7 @@
           position: absolute;
           width: 2000px;
           height: 400px;
-          left: 136px;
+          left: 40px;
           top: 100px;
           border-radius: 25px;
         "
@@ -48,7 +48,20 @@
       class="row justify-center items-center q-gutter-x-md"
       style="margin-bottom: 30px"
     >
-    <span>เกม</span>
+    <span style="
+        position: absolute;
+        width: 117px;
+        height: 53px;
+        left: 100px;
+        top: 600px;
+
+        font-family: 'IBM Plex Sans Thai';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 53px;
+        color: #ffffff;
+      ">เกม</span>
       <div class="col flex justify-center">
         <q-btn
           to="new-page"

@@ -20,8 +20,8 @@
         position: absolute;
         width: 692px;
         height: 73px;
-        left: 900px;
-        top: 347px;
+        left: 700px;
+        top: 200px;
       "
     ></q-input>
     <q-input
@@ -34,8 +34,8 @@
         position: absolute;
         width: 692px;
         height: 73px;
-        left: 900px;
-        top: 533px;
+        left: 700px;
+        top: 350px;
       "
     ></q-input>
     <div
@@ -44,8 +44,8 @@
         position: absolute;
         width: 99px;
         height: 30px;
-        left: 900px;
-        top: 624px;
+        left: 700px;
+        top: 450px;
 
         font-family: 'IBM Plex Sans Thai';
         font-style: normal;
@@ -72,8 +72,8 @@
         position: absolute;
         width: 361px;
         height: 71px;
-        left: 1050px;
-        top: 709px;
+        left: 850px;
+        top: 500px;
         border-radius: 25px;
         background: #0d1b2a;
       "
